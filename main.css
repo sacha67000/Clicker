@@ -74,6 +74,24 @@ aside
 	margin-right:10px;
 }
 
+aside table {
+	margin : 10px auto auto auto; 
+}
+
+input
+{
+	width: 250px;
+	height: 25px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.submit
+{
+	background-color:rgba(255,255,255,0.7);
+	height: 30px;
+	margin: 8px;
+}
+
 aside
 {
 	padding: 10px;	
