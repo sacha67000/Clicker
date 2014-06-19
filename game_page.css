@@ -42,17 +42,10 @@ header h1
 	height:670px;
 	float: left;
 	margin-left:10px;
-	/*height: 100%;*/
 	font-size:1.5em;
 	text-align:center;
 	color:black;
 }
-
-/*#left h1, #left p
-{
-	padding: 10px;
-	text-shadow: 0px 2px 2px white;
-}*/
 
 #central
 {
@@ -60,10 +53,10 @@ header h1
 	background-color: rgba(255,255,255,0.7);
 	background-image:url(blue_background.jpg);
 	left:27%;
-	right: 30%;
 	top: 140px;
 	bottom: 0%;
-	width: 42%;
+	right: 60%;
+	width: 44%;
 }
 
 aside
