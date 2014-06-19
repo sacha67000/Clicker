@@ -1,5 +1,7 @@
 body {
 	background-image: url(background.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
 	margin: 0;
 	height: 100%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
