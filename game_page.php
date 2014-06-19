@@ -22,6 +22,10 @@
 <h3>TOTAL: 2 $</h3>
 </div>
 
+<div id="save_button">
+<img src="img/disquette.png" alt="disquette" />
+</div>
+
 <div id="central">
 </div>
 
