@@ -30,5 +30,5 @@
       <td><input type="password" name="password" value=""/></td>
     </tr>
   </table>
-  <input class="submit" type="submit" name="Valider" value="Valider"/>
+  <a href="game_page.php" title"Jouer !"><input class="submit" type="submit" name="Valider" value="Valider"/></a>
 </aside>
