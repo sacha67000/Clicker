@@ -63,9 +63,18 @@ header h1
 
 #dollar
 {
-	position:absolute;
-	left:100px;
-	top:400px;
+width:50%;
+margin-top:50px;
+}
+
+#dollar:hover
+{
+width: 55%;
+}
+
+#dollar:active
+{
+	width: 60%;	
 }
 
 #central

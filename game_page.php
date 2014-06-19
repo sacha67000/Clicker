@@ -13,9 +13,8 @@
 <?php include("menu.php"); ?>
 </header>
 <div id="left">
+<img id="dollar" src="img/dollar.png" alt="dollar" />
 </div>
-
-<img id="dollar" src="1Dollar.jpg" alt="dollar" />
 
 <div id="central">
 </div>
