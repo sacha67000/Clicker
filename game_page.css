@@ -1,6 +1,6 @@
 body 
 {
-	background-image: url(background.jpg);
+	background-image: url(img/background.jpg);
 	margin: 0;
 	height: 100%;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -51,7 +51,7 @@ header h1
 #left
 {
 	background-color: rgba(255,255,255,0.7);
-	background-image:url(blue_background.jpg);
+	background-image:url(img/blue_background.jpg);
 	width: 25%;
 	height:670px;
 	float: left;
@@ -65,7 +65,7 @@ header h1
 {
 	position: absolute;
 	background-color: rgba(255,255,255,0.7);
-	background-image:url(blue_background.jpg);
+	background-image:url(img/blue_background.jpg);
 	left:27%;
 	top: 140px;
 	bottom: 0%;
@@ -76,7 +76,7 @@ header h1
 aside
 {
 	background-color: rgba(255,255,255,0.7);
-	background-image:url(blue_background.jpg);
+	background-image:url(img/blue_background.jpg);
 	margin-right:10px;
 	height:600px;
 	float: right;
