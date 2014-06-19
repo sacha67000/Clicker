@@ -15,6 +15,8 @@
 <div id="left">
 </div>
 
+<img id="dollar" src="1Dollar.jpg" alt="dollar" />
+
 <div id="central">
 </div>
 

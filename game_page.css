@@ -61,6 +61,13 @@ header h1
 	color:black;
 }
 
+#dollar
+{
+	position:absolute;
+	left:100px;
+	top:400px;
+}
+
 #central
 {
 	position: absolute;
