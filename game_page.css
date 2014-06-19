@@ -1,0 +1,91 @@
+body 
+{
+	background-image: url(background.jpg);
+	margin: 0;
+	height: 100%;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover
+{
+	opacity: 0.5;	
+}
+
+header
+{
+	background-color: rgba(255,255,255,0.7);
+	height: 130px;
+	font-size: 24px;
+	box-shadow: 0px 1px 10px white;
+	margin-bottom: 10px;
+}
+
+header h1
+{
+	text-shadow: 0px 2px 2px black;
+	text-align: center;
+	margin: 0;
+	opacity: 0.8;
+}
+
+#left
+{
+	background-color: rgba(255,255,255,0.7);
+	background-image:url(blue_background.jpg);
+	width: 25%;
+	height:670px;
+	float: left;
+	margin-left:10px;
+	/*height: 100%;*/
+	font-size:1.5em;
+	text-align:center;
+	color:black;
+}
+
+/*#left h1, #left p
+{
+	padding: 10px;
+	text-shadow: 0px 2px 2px white;
+}*/
+
+#central
+{
+	position: absolute;
+	background-color: rgba(255,255,255,0.7);
+	background-image:url(blue_background.jpg);
+	left:27%;
+	right: 30%;
+	top: 140px;
+	bottom: 0%;
+	width: 42%;
+}
+
+aside
+{
+	background-color: rgba(255,255,255,0.7);
+	background-image:url(blue_background.jpg);
+	margin-right:10px;
+	height:600px;
+	float: right;
+	width: 25%;
+	display:inline-block;
+	font-size:1.5em;
+	text-align:center;
+}
+
+aside h1, aside
+{
+	padding: 10px;	
+}
+
+#aside h2, aside
+{
+	padding: 20px;
+	text-shadow: 0px 2px 2px white;
+}
