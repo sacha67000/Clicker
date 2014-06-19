@@ -58,21 +58,22 @@ header h1
 	margin-left:10px;
 	font-size:1.5em;
 	text-align:center;
-	color:black;
+	color:white;
+	text-shadow: 0px 2px 2px black;
 }
 
-#dollar
+#dollar img
 {
 width:50%;
-margin-top:50px;
+margin-top:20px;
 }
 
-#dollar:hover
+#dollar img:hover
 {
 width: 55%;
 }
 
-#dollar:active
+#dollar img:active
 {
 	width: 60%;	
 }

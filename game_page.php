@@ -13,7 +13,13 @@
 <?php include("menu.php"); ?>
 </header>
 <div id="left">
-<img id="dollar" src="img/dollar.png" alt="dollar" />
+<h1>Vos ressources</h1>
+<h2>42 $</h2>
+<div id="dollar">
+<img src="img/dollar.png" alt="dollar" />
+</div>
+<h4>28 $ par seconde</h4>
+<h3>TOTAL: 2 $</h3>
 </div>
 
 <div id="central">
