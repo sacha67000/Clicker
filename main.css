@@ -29,12 +29,13 @@ header {
 	list-style-type:none;
 	text-align:center;
 	font-size:1.2em;
+	margin-top: 5px;
 }
 
 #menu li
 {
 	display:inline-block;
-	padding-bottom:10px;
+	margin-right: 12px;
 }
 
 header h1 {
