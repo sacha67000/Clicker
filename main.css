@@ -69,8 +69,6 @@ header h1 {
 
 aside
 {
-	background-color: rgba(255,255,255,0.7);
-	box-shadow: 0px 1px 10px white;
 	width: 48%;
 	text-align:center;
 	float: right;
@@ -88,6 +86,7 @@ input
 	width: 250px;
 	height: 25px;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-shadow: 0px 0px 2px grey;
 }
 
 .submit
@@ -95,6 +94,25 @@ input
 	background-color:rgba(255,255,255,0.7);
 	height: 30px;
 	margin: 8px;
+}
+
+#form_panel
+{
+	margin-top: -40px;
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 0px 1px 10px white;
+}
+
+#auteur
+{
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 0px 1px 10px white;
+	margin-top: 10px;
+}
+
+#auteur p
+{
+	margin: 0;
 }
 
 aside
