@@ -34,7 +34,6 @@ function	setObject()
 
 function	createStorage()
 {
-	createObject();
 	window.localStorage.setItem('money', game.money);
 	window.localStorage.setItem('prod_money', game.prod_money);
 	window.localStorage.setItem('total_money', game.total_money);
@@ -57,10 +56,11 @@ function	dollarCounter()
 
 function	lcStorage()
 {
-	if (!window.localStorage)
+	if (window.localStorage.length == 0)
 	{
+		createObject();
 		createStorage();
-		alert(game.money);
+		alert('Bienvenue');
 	}
 	else
 		setObject();
