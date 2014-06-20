@@ -22,20 +22,22 @@
       </table>
       <input class="submit" type="submit" name="Valider" value="Valider"/>
     </form>
-    <h1>Connexion</h1>
-    <table>
-      <tr class="ligne">
-        <td class="libelle">Pseudo :</td>
-        <td><input type="text" name="pseudo" value=""/></td>
-      </tr>
-      <tr class="ligne">
-        <td class="libelle">Mot de passe :</td>
-        <td><input type="password" name="password" value=""/></td>
-      </tr>
-    </table>
-    <a href="game_page.php" title"Jouer !">
-      <input class="submit" type="submit" name="Valider" value="Valider"/>
-    </a> 
+    <form name="input" action="connexion.php" method="post">
+      <h1>Connexion</h1>
+      <table>
+        <tr class="ligne">
+          <td class="libelle">Pseudo :</td>
+          <td><input type="text" name="pseudo" value=""/></td>
+        </tr>
+        <tr class="ligne">
+          <td class="libelle">Mot de passe :</td>
+          <td><input type="password" name="password" value=""/></td>
+        </tr>
+      </table>
+      <a href="game_page.php" title"Jouer !">
+        <input class="submit" type="submit" name="Valider" value="Valider"/>
+      </a>
+    </form> 
   </div>
   <div id="auteur">
     <h1>Auteurs</h1>

@@ -2,7 +2,7 @@
 <div id="left">
 	<h1>Bienvenue sur Country Click</h1>
 	<p>
-		Notre projet est un jeu par navigateur inspiré de <a href="orteil.dashnet.org/cookieclicker/" title="CookieClicker">CookieClicker</a> ou 
+		Notre projet est un jeu par navigateur inspiré de <a href="http://orteil.dashnet.org/cookieclicker/" title="CookieClicker">CookieClicker</a> ou 
 		<a href="http://drmeth.com/" title="DrMeth">DrMeth.</a> 
 		Vous contrôlerez un État et devrez cliquer pour récolter des Dollars ($). 
 		Au départ, 1 clic équivaudra à un dollar.<br/><br/>
