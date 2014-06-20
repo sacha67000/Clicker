@@ -33,6 +33,6 @@
 	<aside>
 		<h1>Right_DIV</h1>
 	</aside>
-
+<script type="text/javascript" src="storage.js"> </script>
 </body>
 </html>
