@@ -38,7 +38,7 @@ function	createStorage()
 	window.localStorage.setItem('prod_money', game.prod_money);
 	window.localStorage.setItem('total_money', game.total_money);
 	window.localStorage.setItem('worker', game.worker);
-	window.localStorage.setItem('buisnessman', game.buisnessman);
+	window.localStorage.setItem('businessman', game.buisnessman);
 	window.localStorage.setItem('supermarket', game.supermarket);
 	window.localStorage.setItem('factory', game.factory);
 	window.localStorage.setItem('bank', game.bank);
@@ -76,5 +76,54 @@ function	addDollar()
 	game.money = game.money + 1;	
 }
 
+/*function	addBatiments()
+{
+	if ()
+	{
+		game.workers = game.workers + 1;
+	}
+	else if()
+	{
+		game.businessman = game.businessman + 1;
+	}
+	else if()
+	{
+		game.supermarket = game.supermaket + 1;
+	}
+	else if()
+	{
+		game.factory = game.factory + 1;
+	}
+	else if()
+	{
+		game.bank = game.bank + 1;
+	}
+	else if()
+	{
+		game.mine = game.mine + 1;
+	}	
+	else if()
+	{
+		game.president = game.president + 1;
+	}
+	else if()
+	{
+		game.antimater = game.antimater + 1;
+	}
+}*/
+
+function	calc_prod()
+{
+	game.prod_money = game.workers * 1;	
+	game.prod_money += game.businessman * 5;
+	game.prod_money += game.supermarket * 15;
+	game.prod_money += game.factory * 40;
+	game.prod_money += game.bank * 300;
+	game.prod_money += game.mine * 1000;
+	game.prod_money += game.president * 5000;
+	game.prod_money += game.antimater * 50000;
+}
+
 lcStorage();
+calc_prod();
 window.setInterval(function(){dollarCounter()}, 500);

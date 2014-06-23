@@ -31,7 +31,46 @@
 	</div>
 
 	<aside>
-		<h1>Right_DIV</h1>
+        <div id="worker">
+        	<img src="img/Worker.png" alt="worker" />
+            <div id="nb_worker">1 worker(s)</div>
+			<div id="worker_cost">Prix : 0$</div>
+        </div>
+        <div id="businessman">
+        	<img src="img/Businessman.gif" alt="businessman" />
+            <div id="nb_businessman">1 cadre(s)</div>
+			<div id="businessman_cost">Prix : 0$</div>
+        </div>
+        <div id="supermarket">
+        	<img src="img/Supermarket.png" alt="supermarket" />
+            <div id="nb_supermarket">1 supermarché(s)</div>
+			<div id="supermarket_cost">Prix : 0$</div>
+        </div>
+        <div id="factory">
+        	<img src="img/Factory.png" alt="factory" />
+            <div id="nb_factory">	1 usine(s)</div>
+			<div id="factory_cost">	Prix : 0$</div>
+        </div>
+        <div id="bank">
+        	<img src="img/Bank.png" alt="bank" />
+            <div id="nb_bank">1 banque(s)</div>
+			<div id="bank_cost">Prix : 0$</div>
+        </div>
+        <div id="mine">
+        	<img src="img/Mine.png" alt="mine" />
+            <div id="nb_mine">1 mine(s)</div>
+			<div id="mine_cost">Prix : 0$</div>
+        </div>
+        <div id="president">
+        	<img src="img/President.png" alt="president" />
+			<div id="nb_president">1 président(s)</div>
+			<div id="president_cost">Prix : 0$</div>
+        </div>
+        <div id="antimater">
+        	<img src="img/Antimater.jpg" alt="antimater" />
+            <div id="nb_antimater">1 nuage(s) d'antimatière</div>
+			<div id="antimater_cost">Prix : 0$</div>
+        </div>
 	</aside>
 <script type="text/javascript" src="storage.js"> </script>
 </body>
