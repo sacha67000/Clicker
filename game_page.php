@@ -15,12 +15,12 @@
 	<div id="left">
 		<div id="dollar_panel">
 			<h1>Vos ressources</h1>
-			<h2>42 $</h2>
+			<div id="dollar_counter">0 $</div>
 			<div id="dollar">
 				<img src="img/dollar.png" alt="dollar" />
 			</div>
-			<h4>28 $ par seconde</h4>
-			<h3>TOTAL: 2 $</h3>
+			<div id="dollar_prod">0 $ par seconde</div>
+			<div id="dollar_total">TOTAL: 2 $</div>
 		</div>
 		<div id="save_button">
 			<img src="img/disquette.png" alt="disquette" />

@@ -50,8 +50,13 @@ function	createStorage()
 function	dollarCounter()
 {
 	game.money = game.money + (game.prod_money / 2);
-	document.write(game.money);
-	document.write(' ');
+	game.total_money = game.total_money + (game.prod_money / 2);
+	myDollar = document.getElementById('dollar_counter');
+	myDollar.innerHTML = game.money + ' $';
+	myDollarProd = document.getElementById('dollar_prod');
+	myDollarProd.innerHTML = game.prod_money + ' $ par seconde';
+	myDollarTotal = document.getElementById('dollar_total');
+	myDollarTotal.innerHTML = 'TOTAL :<br/>' + game.total_money + ' $';
 }
 
 function	lcStorage()
