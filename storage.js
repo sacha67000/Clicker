@@ -73,8 +73,16 @@ function	lcStorage()
 
 function	addDollar()
 {
-	game.money = game.money + 1;	
+	game.money = game.money + 1;
+	game.total_money = game.total_money + 1;
+	myDollar.innerHTML = game.money + ' $';
+	myDollarTotal.innerHTML = 'TOTAL :<br/>' + game.total_money + ' $';
 }
 
 lcStorage();
+game.prod_money = 0;
 window.setInterval(function(){dollarCounter()}, 500);
+elemDollar = document.getElementById("dollar");
+elemDollar.onclick = addDollar;
+elemSave = document.getElementById("save_button");
+elemSave.onclick = createStorage;
