@@ -1,9 +1,10 @@
 <?php 
 function connectBDD()
 {	
-	try {
+	try
+	{
 		$bdd = new PDO('mysql:host=localhost;dbname=countryclick', 'root', '');
-		echo "<strong>Connexion à la base de donnée réussie !</strong>";
+		echo "<strong>Connexion à la base de donnée réussie !</strong><br />";
 	}
 	catch(Exception $e)
 	{
