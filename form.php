@@ -5,19 +5,19 @@
       <table>
         <tr class="ligne">
           <td class="libelle">Pseudo :</td>
-          <td><input type="text" name="pseudo" value=""/></td>
+          <td><input type="text" name="pseudo"/></td>
         </tr>
         <tr class="ligne">
           <td class="libelle">E-mail :</td>
-          <td><input type="mail" name="mail" value=""/></td>
+          <td><input type="mail" name="mail"/></td>
         </tr>
         <tr class="ligne">
           <td class="libelle">Mot de passe :</td>
-          <td><input type="password" name="password" value=""/></td>
+          <td><input type="password" name="password"/></td>
         </tr>
         <tr class="ligne">
           <td class="libelle">Confirmez le mot de passe :</td>
-          <td><input type="password" name="password2" value=""/></td>
+          <td><input type="password" name="password2"/></td>
         </tr>
       </table>
       <input class="submit" type="submit" name="Valider" value="Valider"/>
