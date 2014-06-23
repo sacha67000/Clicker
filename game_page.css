@@ -54,6 +54,7 @@ header h1
 {
 	background-color: rgba(255,255,255,0.7);
 	background-image:url(img/blue_background.jpg);
+	border-radius: 5px 5px 5px 5px;
 	width: 25%;
 	height:670px;
 	float: left;
@@ -66,18 +67,25 @@ header h1
 
 #dollar img
 {
-width:50%;
-margin-top:20px;
+	width : 50%;
+	margin-top : 20px;
+	/*margin-bottom:20px;*/
 }
 
 #dollar img:hover
 {
-width: 55%;
+	width: 55%;
 }
 
 #dollar img:active
 {
-	width: 60%;	
+	width: 50%;	
+}
+
+#dollar_prod
+{
+margin-top: 20px;
+	
 }
 
 #central
@@ -85,6 +93,7 @@ width: 55%;
 	position: absolute;
 	background-image:url(img/blue_background.jpg);
 	background-repeat:no-repeat;
+	border-radius: 20px 20px 20px 20px;
 	left:27%;
 	top: 140px;
 	bottom: 0%;
@@ -96,13 +105,12 @@ aside
 {
 	background-color: rgba(255,255,255,0.7);
 	background-image:url(img/blue_background.jpg);
+	border-radius: 5px 10px 0 5px;
 	margin-right:10px;
-	height:600px;
 	float: right;
 	width: 25%;
-	display:inline-block;
 	font-size:1.5em;
-	text-align:center;
+
 }
 
 aside h1, aside
@@ -116,100 +124,18 @@ aside h1, aside
 	text-shadow: 0px 2px 2px white;
 }
 
-#worker
+.worker_img 
 {
-	text-align : central;
-	
+	float: left;
 }
 
-#worker img
+.worker_div
 {
-	width : 13%;
-	margin-right : 80%;
-}
-
-#businessman
-{
-	text-align : central;
-	
-}
-
-#businessman img
-{
-	width : 19%;
-	margin-right : 80%;
-}
-
-#supermarket
-{
-	text-align : central;
-	
-}
-
-#supermarket img
-{
-	width : 20%;
-	margin-right : 80%;
-}
-
-#factory
-{
-	text-align : central;
-	
-}
-
-#factory img
-{
-	width : 18%;
-	margin-right : 80%;
-}
-
-#bank
-{
-	text-align : central;
-	
-}
-
-#bank img
-{
-	width : 12%;
-	margin-right : 80%;
-}
-
-#mine
-{
-	text-align : central;
-	
-}
-
-#mine img
-{
-	width : 23%;
-	margin-right : 80%;
-}
-
-#president
-{
-	text-align : central;
-	
-}
-
-#president img
-{
-	width : 15%;
-	margin-right : 80%;
-}
-
-#antimater
-{
-	text-align : central;
-	
-}
-
-#antimater img
-{
-	width : 15%;
-	margin-right : 80%;
+	margin-bottom: 50px;
+	text-align:center;
+	background-color: #6C3;
+	border-radius: 5px 10px 5px 5px;
+	box-shadow: 0px 1px 15px black;
 }
 
 #save_button

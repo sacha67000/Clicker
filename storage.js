@@ -128,11 +128,8 @@ function	calc_prod()
 }
 
 lcStorage();
-<<<<<<< HEAD
 calc_prod();
-=======
 game.prod_money = 0;
->>>>>>> origin/master
 window.setInterval(function(){dollarCounter()}, 500);
 elemDollar = document.getElementById("dollar");
 elemDollar.onclick = addDollar;
