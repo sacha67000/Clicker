@@ -20,7 +20,7 @@
 				<img src="img/dollar.png" alt="dollar" />
 			</div>
 			<div id="dollar_prod">0 $ par seconde</div>
-			<div id="dollar_total">TOTAL: 2 $</div>
+			<div id="dollar_total">TOTAL :<br/>0 $</div>
 		</div>
 		<div id="save_button">
 			<img src="img/disquette.png" alt="disquette" />

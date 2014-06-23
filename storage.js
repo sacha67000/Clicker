@@ -7,13 +7,13 @@ function	createObject()
 	game.prod_money = 0;
 	game.total_money = 0;
 	game.worker = 0;
-	game.buisnessman = 0;
+	game.businessman = 0;
 	game.supermarket = 0;
 	game.factory = 0;
 	game.bank = 0;
 	game.mine = 0;
 	game.president = 0;
-	game.antimater = 0;
+	game.antimatter = 0;
 }
 
 function	setObject()
@@ -23,13 +23,13 @@ function	setObject()
 	game.prod_money = parseInt(window.localStorage.getItem('prod_money'));
 	game.total_money = parseInt(window.localStorage.getItem('total_money'));
 	game.worker = parseInt(window.localStorage.getItem('worker'));
-	game.buisnessman = parseInt(window.localStorage.getItem('buisnessman'));
+	game.buisnessman = parseInt(window.localStorage.getItem('businessman'));
 	game.supermarket = parseInt(window.localStorage.getItem('supermarket'));
 	game.factory = parseInt(window.localStorage.getItem('factory'));
 	game.bank = parseInt(window.localStorage.getItem('bank'));
 	game.mine = parseInt(window.localStorage.getItem('mine'));
 	game.president = parseInt(window.localStorage.getItem('president'));
-	game.antimater = parseInt(window.localStorage.getItem('antimater'));
+	game.antimater = parseInt(window.localStorage.getItem('antimatter'));
 }
 
 function	createStorage()
@@ -44,7 +44,7 @@ function	createStorage()
 	window.localStorage.setItem('bank', game.bank);
 	window.localStorage.setItem('mine', game.mine);
 	window.localStorage.setItem('president', game.president);
-	window.localStorage.setItem('antimater', game.antimater);
+	window.localStorage.setItem('antimatter', game.antimater);
 }
 
 function	dollarCounter()
@@ -73,7 +73,10 @@ function	lcStorage()
 
 function	addDollar()
 {
-	game.money = game.money + 1;	
+	game.money = game.money + 1;
+	game.total_money = game.total_money + 1;
+	myDollar.innerHTML = game.money + ' $';
+	myDollarTotal.innerHTML = 'TOTAL :<br/>' + game.total_money + ' $';
 }
 
 /*function	addBatiments()
@@ -125,5 +128,13 @@ function	calc_prod()
 }
 
 lcStorage();
+<<<<<<< HEAD
 calc_prod();
+=======
+game.prod_money = 0;
+>>>>>>> origin/master
 window.setInterval(function(){dollarCounter()}, 500);
+elemDollar = document.getElementById("dollar");
+elemDollar.onclick = addDollar;
+elemSave = document.getElementById("save_button");
+elemSave.onclick = createStorage;
